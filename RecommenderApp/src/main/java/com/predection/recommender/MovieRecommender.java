@@ -18,7 +18,7 @@ public class MovieRecommender {
 	  }
 
 	  public static void main(String[] args) throws Exception {
-
+ 
 	    DataModel model = new FileDataModel(new File("data/movies.csv"));
 	    //C:\Users\psxsa16\workspace\com.rukbysoft.examples.mahout-MahoutRecommender\com.rukbysoft.examples.mahout-MahoutRecommender\src\main\java\com\rukbysoft\examples\mahout\recommender
 	    //DataModel model = new FileDataModel(new File("/Users/psxsa16/workspace/com.rukbysoft.examples.mahout/src/main/java/com/rukbysoft/examples/mahout/recommender/MoviesList.csv"));
