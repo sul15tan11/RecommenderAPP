@@ -28,7 +28,7 @@ public class MovieRecommender {
 	     * for the NUMBER of items in which 2 users' preferences overlap.
 	     * There are other options such as Euclidean Distance similarity.
 	    */
-	    
+	     
 	    UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
 	    
 	    //First parameter - neighborhood size; capped at the number of users in the data model
